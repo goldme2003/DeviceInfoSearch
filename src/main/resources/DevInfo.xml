@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+        version="2.0">
+
+    <entity class="com.zhzt.devinfosearch.Entity.DevInfo">
+        <table name="dev_info" schema="POW_DATA_ANALY" catalog=""/>
+        <attributes>
+            <id name="devInfoId">
+                <column name="Dev_Info_ID" precision="100"/>
+            </id>
+            <basic name="devName">
+                <column name="Dev_Name" nullable="false"/>
+            </basic>
+            <basic name="devType">
+                <column name="Dev_Type" nullable="false"/>
+            </basic>
+            <basic name="opNo">
+                <column name="Op_No" nullable="false"/>
+            </basic>
+            <basic name="substName">
+                <column name="Subst_Name" nullable="false"/>
+            </basic>
+            <basic name="belongedFeedbackLine">
+                <column name="Belonged_FeedbackLine" nullable="false"/>
+            </basic>
+            <basic name="feedbacklineBranch">
+                <column name="Feedbackline_Branch" nullable="false"/>
+            </basic>
+            <basic name="typeNo">
+                <column name="Type_No" nullable="false"/>
+            </basic>
+            <basic name="manufactor">
+                <column name="Manufactor" nullable="false"/>
+            </basic>
+            <basic name="initialNo">
+                <column name="Initial_No" nullable="false"/>
+            </basic>
+            <basic name="manuData">
+                <column name="Manu_Data" nullable="false" precision="-1"/>
+            </basic>
+            <basic name="belongedTo">
+                <column name="Belonged_To" nullable="false"/>
+            </basic>
+            <basic name="beginDate">
+                <column name="Begin_Date" nullable="false" precision="-1"/>
+            </basic>
+            <basic name="devCode">
+                <column name="Dev_Code" nullable="false"/>
+            </basic>
+            <basic name="volLev">
+                <column name="Vol_Lev" nullable="false"/>
+            </basic>
+            <basic name="devStatus">
+                <column name="Dev_Status" nullable="false"/>
+            </basic>
+            <basic name="phase">
+                <column name="Phase" nullable="false"/>
+            </basic>
+            <basic name="maintainTeam">
+                <column name="Maintain_Team" nullable="false"/>
+            </basic>
+            <basic name="devOwner">
+                <column name="Dev_Owner" nullable="false"/>
+            </basic>
+            <basic name="belongedFeedbackLineId">
+                <column name="Belonged_FeedbackLineID" nullable="false"/>
+            </basic>
+            <basic name="feedbacklineBranchId">
+                <column name="Feedbackline_BranchID" nullable="false"/>
+            </basic>
+            <basic name="objId">
+                <column name="obj_id" nullable="false"/>
+            </basic>
+            <basic name="devId">
+                <column name="Dev_ID" nullable="false"/>
+            </basic>
+            <basic name="opCompany">
+                <column name="Op_Company" nullable="false"/>
+            </basic>
+            <basic name="projNo">
+                <column name="Proj_No" nullable="false"/>
+            </basic>
+            <basic name="projName">
+                <column name="Proj_Name" nullable="false"/>
+            </basic>
+            <basic name="stationBuildingId">
+                <column name="StationBuilding_ID" nullable="false"/>
+            </basic>
+            <basic name="profCategory">
+                <column name="Prof_Category" nullable="false"/>
+            </basic>
+            <basic name="funcPosition">
+                <column name="Func_Position" nullable="false"/>
+            </basic>
+            <basic name="pmCode">
+                <column name="PM_Code" nullable="false"/>
+            </basic>
+            <basic name="voltLevelName">
+                <column name="Volt_Level_Name" nullable="false"/>
+            </basic>
+            <basic name="devTypeCode">
+                <column name="Dev_Type_Code" nullable="false"/>
+            </basic>
+            <basic name="stationLineName">
+                <column name="StationLine_Name" nullable="false"/>
+            </basic>
+            <basic name="devManufactor">
+                <column name="Dev_Manufactor" nullable="false"/>
+            </basic>
+            <basic name="volLevCode">
+                <column name="Vol_Lev_Code" nullable="false"/>
+            </basic>
+            <basic name="assetProp">
+                <column name="Asset_Prop" nullable="false"/>
+            </basic>
+            <basic name="manuCountry">
+                <column name="Manu_Country" nullable="false"/>
+            </basic>
+            <basic name="bayUnit">
+                <column name="Bay_Unit" nullable="false"/>
+            </basic>
+            <basic name="belongedStationVolLev">
+                <column name="Belonged_Station_Vol_Lev" nullable="false"/>
+            </basic>
+            <basic name="phaseNo">
+                <column name="Phase_No" nullable="false"/>
+            </basic>
+            <basic name="latestOpDate">
+                <column name="Latest_Op_Date" nullable="false" precision="-1"/>
+            </basic>
+            <basic name="assetTransId">
+                <column name="Asset_Trans_ID" nullable="false"/>
+            </basic>
+            <basic name="note">
+                <column name="Note" nullable="false"/>
+            </basic>
+            <basic name="devIncreMode">
+                <column name="Dev_Incre_Mode" nullable="false"/>
+            </basic>
+            <basic name="regDate">
+                <column name="Reg_Date" nullable="false" precision="-1"/>
+            </basic>
+            <basic name="equipBrandOplibId">
+                <column name="Equip_Brand_Oplib_ID" nullable="false"/>
+            </basic>
+            <basic name="belongedCity">
+                <column name="Belonged_City" nullable="false"/>
+            </basic>
+            <basic name="assetNo">
+                <column name="Asset_No" nullable="false"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>
